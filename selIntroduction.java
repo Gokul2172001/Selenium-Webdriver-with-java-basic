@@ -1,5 +1,6 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 public class selIntroduction {
 
@@ -14,11 +15,17 @@ public class selIntroduction {
 		//WebDriver methods + ClassMethods
 		
 		//ChromeDriver.exe->ChromeBrowser
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\ELCOT\\Documents\\chromedriver_win32\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver","C:\\Users\\ELCOT\\Documents\\chromedriver_win32\\chromedriver.exe");
+		//Microsoft edge
+		System.setProperty("webdriver.edge.driver","C:\\Users\\ELCOT\\Documents\\edgedriver_win64\\msedgedriver.exe");
 		
 		//WebDriver.Chrome.driver->value of path
-		WebDriver driver = new ChromeDriver();
-		driver.get("https://rahulshettyacademy.com");
+		//WebDriver driver = new ChromeDriver();
+		
+		//Webdriver.edge.driver->value of path
+		WebDriver driver = new EdgeDriver();
+		
+		driver.get("https://tpbproxypirate.com");
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
 		driver.close();
