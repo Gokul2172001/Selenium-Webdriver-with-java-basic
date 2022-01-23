@@ -25,6 +25,11 @@ public class selIntroduction {
 		//Webdriver.edge.driver->value of path
 		WebDriver driver = new EdgeDriver();
 		
+		//Firefox
+		//System.setProperty("webdriver.gecko.driver", "/Users/rahulshetty/Documents/geckodriver");
+
+		//WebDriver driver1 = new FirefoxDriver();
+		
 		driver.get("https://tpbproxypirate.com");
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
