@@ -25,7 +25,7 @@ public class selIntroduction {
 		//Webdriver.edge.driver->value of path
 		//WebDriver driver = new EdgeDriver();
 		
-		//Firefox
+		//Firefox->value path
 		System.setProperty("webdriver.gecko.driver", "/Users/rahulshetty/Documents/geckodriver");
 
 		WebDriver driver1 = new FirefoxDriver();
