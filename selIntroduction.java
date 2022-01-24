@@ -17,18 +17,18 @@ public class selIntroduction {
 		//ChromeDriver.exe->ChromeBrowser
 		//System.setProperty("webdriver.chrome.driver","C:\\Users\\ELCOT\\Documents\\chromedriver_win32\\chromedriver.exe");
 		//Microsoft edge
-		System.setProperty("webdriver.edge.driver","C:\\Users\\ELCOT\\Documents\\edgedriver_win64\\msedgedriver.exe");
+		//System.setProperty("webdriver.edge.driver","C:\\Users\\ELCOT\\Documents\\edgedriver_win64\\msedgedriver.exe");
 		
 		//WebDriver.Chrome.driver->value of path
 		//WebDriver driver = new ChromeDriver();
 		
 		//Webdriver.edge.driver->value of path
-		WebDriver driver = new EdgeDriver();
+		//WebDriver driver = new EdgeDriver();
 		
 		//Firefox
-		//System.setProperty("webdriver.gecko.driver", "/Users/rahulshetty/Documents/geckodriver");
+		System.setProperty("webdriver.gecko.driver", "/Users/rahulshetty/Documents/geckodriver");
 
-		//WebDriver driver1 = new FirefoxDriver();
+		WebDriver driver1 = new FirefoxDriver();
 		
 		driver.get("https://tpbproxypirate.com");
 		System.out.println(driver.getTitle());
