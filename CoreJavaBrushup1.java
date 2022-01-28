@@ -34,6 +34,12 @@ public class CoreJavaBrushup1 {
 		for(int i=0; i<arr2.length; i++)
 		{
 			System.out.println(arr2[i]);
+			
+		}
+		String[] name= {"Gokul","Java","Python","selenium"};
+		for(int i=0; i<name.length;i++)
+		{
+			System.out.println(name[i]);
 		}
 		
 		
