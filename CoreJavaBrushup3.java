@@ -12,7 +12,7 @@ public static void main(String[] args) {
 
 
 
-// String s1 = "Rahul Shetty Academy";
+String s1 = "Rahul Shetty Academy";
 
 String s5 = "hello";
 
@@ -53,6 +53,5 @@ System.out.println(s.charAt(i));
 
 
 }
-
 
 
