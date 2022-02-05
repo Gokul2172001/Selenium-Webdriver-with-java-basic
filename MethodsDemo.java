@@ -19,6 +19,11 @@ MethodsDemo2 d1 = new MethodsDemo2();
 d1.getUserData();
 
 getData2();
+MethodsDemo3 m = new MethodsDemo3();
+
+m1.getUserData2();
+ 
+getData2();
 
 
 
