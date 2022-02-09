@@ -12,7 +12,7 @@ public class Locators {
 	    driver.get("https://sso.teachable.com/secure/9521/identity/login");
 	    driver.findElement(By.id("email")).sendKeys("gokul.elumalai12@gmail.com");
 	    driver.findElement(By.name("password")).sendKeys("1341919");
-	    driver.FindElement(By.className("btn-primary button p-v-2-xs p-h-5-xs m-v-3-xs col-12-xs")).click();
+	    //driver.FindElement(By.className("btn-primary button p-v-2-xs p-h-5-xs m-v-3-xs col-12-xs")).click();
 
 	}
 
