@@ -16,6 +16,7 @@ public class Locators {
 		css=input[id$='mail'] 
 		WebElement Email = driver.findElement(By.cssSelector("input[id=email]"));
 		Email.SendKeys("hello@sampleemail.com");
+		driver.findElement(By.id("forgot password")).click();
 
 	}
 
