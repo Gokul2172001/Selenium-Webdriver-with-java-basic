@@ -18,7 +18,10 @@ public class Locators {
 		Email.SendKeys("hello@sampleemail.com");
 		driver.findElement(By.id("forgot password")).click();
 		driver.findElement(By.id("sign up")).click();
-		if(driver.findElement(By.id("help")).click();
+		if(driver.findElement(By.id("help & support")).click();
+		{
+			System.out.println(checkbox=click 
+		}
 		
 
 	}
