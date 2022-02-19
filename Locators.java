@@ -9,7 +9,7 @@ public class Locators {
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ELCOT\\Documents\\chromedriver_win32\\chromedriver.exe");  
 	    WebDriver driver=new ChromeDriver();
-		driver.manage().timeouts().implicitWait(Duration.ofSeconds(5));
+		driver.manage().timeouts().implicitWait(Duration.ofSeconds(15));
 	    driver.get("https://sso.teachable.com/secure/9521/identity/login");
 	    driver.findElement(By.id("email")).sendKeys("gokul.elumalai12@gmail.com");
 	    driver.findElement(By.name("password")).sendKeys("1341919");
