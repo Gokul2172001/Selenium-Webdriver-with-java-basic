@@ -17,8 +17,8 @@ public class Locators {
 		System.out.println(driver.findElement(By.cssSelector("p.error")).getText());
 		driver.findElement(By.LinkText("forget password")).click();
 		driver.findElement(By.id("phone")).sendkeys("9566554241");
-		driver.findElement(By.className("send otp")).click();
-		driver.findElement(By.className("otp")).sendkeys("123456");
+		driver.findElement(By.id("email")).sendkeys("gokul.elumalai12@gmail.com");
+		driver.findElement(By.id("send code")).click();
 		
 
 	}
