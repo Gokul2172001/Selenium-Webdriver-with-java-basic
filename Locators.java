@@ -19,6 +19,7 @@ public class Locators {
 		driver.findElement(By.id("phone")).sendkeys("9566554241");
 		driver.findElement(By.id("email")).sendkeys("gokul.elumalai12@gmail.com");
 		driver.findElement(By.id("send code")).click();
+		driver.findElement(By.id("enter the code")).sendkeys("1111111");
 		
 
 	}
