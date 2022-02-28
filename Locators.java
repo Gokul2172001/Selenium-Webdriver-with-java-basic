@@ -23,7 +23,7 @@ public class Locators {
 		driver.findElement(By.css("Enter your new password")).sendkeys("gokul114"):
 		driver.findElement(By.css("Re enter your new password")).sendkeys("gokul114"):
 		driver.findElement(By.css("change")).click():
-		//password has been changed right after this code.
+		System.out.println(driver(By.xpath("Your password has been changed"));
 		
 
 	}
