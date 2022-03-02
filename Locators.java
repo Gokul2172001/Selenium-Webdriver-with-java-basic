@@ -24,7 +24,6 @@ public class Locators {
 		driver.findElement(By.css("Re enter your new password")).sendkeys("gokul114"):
 		driver.findElement(By.css("change")).click():
 		System.out.println(driver(By.xpath("Your password has been changed"));
-		close();
 		
 
 	}
