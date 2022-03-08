@@ -25,7 +25,7 @@ public class Locators {
 		//System.out.println(driver(By.xpath("Your password has been changed"));
 		//driver.findElement(driver(By.id("Login again").click();
 		//driver.findElement(By.xpath("//input[@placeholder='name']"));
-		close();
+		exit();
 
 	}
 
