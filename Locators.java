@@ -4,7 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Locators {
 
-	public static void main(String[] args)		
+	public static void main(String[] sel)		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ELCOT\\Documents\\chromedriver_win32\\chromedriver.exe");  
 	    WebDriver driver=new ChromeDriver();
 		driver.manage().timeouts().implicitWait(Duration.ofSeconds(15));
