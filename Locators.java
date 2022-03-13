@@ -7,9 +7,9 @@ public class Locators {
 	public static void main(String[] sel)		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ELCOT\\Documents\\chromedriver_win32\\chromedriver.exe");  
 	    WebDriver driver=new ChromeDriver();
-		driver.manage().timeouts().implicitWait(Duration.ofSeconds(15));
+		driver.manage().timeouts().implicitWait(Duration.ofSeconds(20);
 	    driver.get("https://sso.teachable.com/secure/9521/identity/login");
-	    driver.findElement(By.id("email")).sendKeys("gokul.elumalai12@gmail.com");
+	    driver.findElement(By.id("email")).sendKeys("clevergokul21122001@gmail.com");
 	    driver.findElement(By.name("password")).sendKeys("1341919");
 		driver.findElement(By.className("SigninBtn")).click();
 		System.out.println(driver.findElement(By.cssSelector("p.error")).getText());
