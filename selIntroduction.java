@@ -1,6 +1,6 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
+//import org.openqa.selenium.edge.EdgeDriver;
 
 public class selIntroduction {
 
@@ -15,12 +15,12 @@ public class selIntroduction {
 		//WebDriver methods + ClassMethods
 		
 		//ChromeDriver.exe->ChromeBrowser
-		//System.setProperty("webdriver.chrome.driver","C:\\Users\\ELCOT\\Documents\\chromedriver_win32\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver"," ");
 		//Microsoft edge
-		//System.setProperty("webdriver.edge.driver","C:\\Users\\ELCOT\\Documents\\edgedriver_win64\\msedgedriver.exe");
+		System.setProperty("webdriver.edge.driver","C:\\Users\\ELCOT\\Documents\\edgedriver_win64\\msedgedriver.exe");
 		
 		//WebDriver.Chrome.driver->value of path
-		//WebDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 		
 		//Webdriver.edge.driver->value of path
 		//WebDriver driver = new EdgeDriver();
@@ -28,7 +28,7 @@ public class selIntroduction {
 		//Firefox->value path
 		System.setProperty("webdriver.gecko.driver", "/Users/rahulshetty/Documents/geckodriver");
 
-		WebDriver driver1 = new FirefoxDriver();
+		//WebDriver driver1 = new FirefoxDriver();
 		
 		driver.get("https://tpbproxypirate.com");
 		System.out.println(driver.getTitle());

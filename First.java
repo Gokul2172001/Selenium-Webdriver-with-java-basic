@@ -1,13 +1,13 @@
 import org.openqa.selenium.By;  
 import org.openqa.selenium.WebDriver;  
-import org.openqa.selenium.chrome.ChromeDriver;  
+import org.openqa.selenium.;  
   
 public class First {  
   
     public static void main(String[] args) {  
         
     // declaration and instantiation of objects/variables  
-    System.setProperty("webdriver.chrome.driver", "C:\\Users\\ELCOT\\Documents\\chromedriver_win32\\chromedriver.exe");  
+    System.setProperty("webdriver.chrome.driver", "C:\\Users\\ELCOT\\Documents\\edgedriver_win64\\msedgedriver.exe");  
     WebDriver driver=new ChromeDriver();  
       
 // Launch website  
