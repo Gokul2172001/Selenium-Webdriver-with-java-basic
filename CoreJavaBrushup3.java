@@ -3,24 +3,9 @@ public class CoreJavaBrushUp3 {
 
 
 public static void main(String[] args) {
-
-// TODO Auto-generated method stub
-
-
-
-//string is an object //String literal
-
-
-
  String s1 = "Rahul Shetty Academy";
 
 String s5 = "hello";
-
-
-
-
-
-//new
 
 String s2 = new String("Welcome");
 
