@@ -11,7 +11,6 @@ public class Copy_Constructor2 {
 		System.out.println(id+" "+name);
 	}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Copy_Constructor2 s1=new Copy_Constructor2(111,"Karan");
 		Copy_Constructor2 s2=new Copy_Constructor2();
 		s2.id=s1.id;
