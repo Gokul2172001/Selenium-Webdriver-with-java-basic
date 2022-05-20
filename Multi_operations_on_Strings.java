@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class Multi_operations_on_Strings {
 	public static Scanner input;
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		input=new Scanner(System.in);
 		String str=new String("Engineering");
 		char arr[]=str.toCharArray();
