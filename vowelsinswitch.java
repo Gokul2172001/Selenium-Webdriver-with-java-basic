@@ -1,8 +1,6 @@
 import java.util.*;
 public class vowelsinswitch {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner vowel = new Scanner(System.in);
 		char ch;
 		System.out.println("Enter the character...");
@@ -26,5 +24,4 @@ public class vowelsinswitch {
 		}
 		}
 	}
-
 }
