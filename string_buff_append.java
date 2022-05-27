@@ -3,7 +3,6 @@ public class string_buff_append {
 
 	public static void main(String[] args) 
 	public static Scanner input; {
-		// TODO Auto-generated method stub
 		input=new Scanner(System.in);
 		String s=input.nextLine();
 		//String s2=input.nextLine();
