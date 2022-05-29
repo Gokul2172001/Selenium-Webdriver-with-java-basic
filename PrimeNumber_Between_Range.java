@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class PrimeNumber_Between_Range {
 	public static Scanner input;
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		input=new Scanner(System.in);
 		int count=0;
 		int num1=input.nextInt();
