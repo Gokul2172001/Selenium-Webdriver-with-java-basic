@@ -4,7 +4,6 @@ public class Recursion {
 	public static Scanner input;
 	public static void main(String[] args) {
 		input=new Scanner(System.in);
-		// TODO Auto-generated method stub
 		int Number,result;
 		Number=input.nextInt();
 		result=sum(Number);
