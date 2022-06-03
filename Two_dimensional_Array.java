@@ -2,7 +2,6 @@ import java.util.*;
 public class Two_dimensional_Array {
 	public static Scanner input;
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		input=new Scanner(System.in);
 		int a=input.nextInt();
 		int arr[][]=new int[a][a];
