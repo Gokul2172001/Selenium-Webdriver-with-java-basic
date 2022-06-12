@@ -35,10 +35,10 @@ static void poly(int c[], int d) {
 		System.out.println();
 		System.out.println("Second polynomial equation is:");
 		poly(b,n);
-		//int sum[]=add(a,b,m,n);
-		//int size=max(m,n);
-		//System.out.println("Addition of polynomial equation is:");
-		//poly(sum,size);
+		int sum[]=add(a,b,m,n);
+		int size=max(m,n);
+		System.out.println("Addition of polynomial equation is:");
+		poly(sum,size);
 	}
 
 }
