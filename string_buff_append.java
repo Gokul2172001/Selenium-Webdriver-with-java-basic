@@ -6,7 +6,6 @@ public class string_buff_append {
 		input=new Scanner(System.in);
 		String s=input.nextLine();
 		//String s2=input.nextLine();
-		//String s3=input.nextLine();
 		StringBuffer s1=new StringBuffer(s);
 		//int a=input.nextInt();
 		//int b=input.nextInt();
