@@ -1,17 +1,18 @@
 import org.openqa.selenium.By;  
-import org.openqa.selenium.WebDriver;  
-import org.openqa.selenium.;  
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;  
+
   
 public class First {  
   
     public static void main(String[] args) {  
         
     // declaration and instantiation of objects/variables  
-    System.setProperty("webdriver.chrome.driver", "C:\\Users\\ELCOT\\Documents\\edgedriver_win64\\msedgedriver.exe");  
+    System.setProperty("webdriver.chrome.driver", "C:\\Users\\ELCOT\\Documents\\chromedriver_win32\\chromedriver.exe");  
     WebDriver driver=new ChromeDriver();  
       
 // Launch website  
-    driver.navigate().to("http://www.google.com/");  
+    driver.navigate().to("https://moodle.mec.edu.in/login/index.php");  
           
     // Click on the search text box and send value  
     driver.findElement(By.id("lst-ib")).sendKeys("javatpoint tutorials");  
