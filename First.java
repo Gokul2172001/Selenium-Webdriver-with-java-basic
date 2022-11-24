@@ -11,7 +11,7 @@ public class First {
     System.setProperty("webdriver.chrome.driver", "C:\\Users\\ELCOT\\Documents\\chromedriver_win32\\chromedriver.exe");  
     WebDriver driver=new ChromeDriver();  
       
-// Launch website  
+// Launch website that has a login credentials
     driver.navigate().to("https://moodle.mec.edu.in/login/index.php");  
           
     // Click on the search text box and send value  
