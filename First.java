@@ -12,7 +12,7 @@ public class First {
     WebDriver driver=new ChromeDriver();  
       
 // Launch website that has a login credentials
-    driver.navigate().to("https://moodle.mec.edu.in/login/index.php");  
+    driver.navigate().to("https://webminal.org/");  
           
     // Click on the search text box and send value  
     driver.findElement(By.id("lst-ib")).sendKeys("javatpoint tutorials");  
