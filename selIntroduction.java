@@ -12,7 +12,6 @@ public class selIntroduction {
 		driver.findElement(By.name("email")).sendKeys("gokul.elumalai12@gmail.com");
 		driver.findElement(By.name("pass")).sendKeys("gokul1341919");
 		driver.findElement(By.name("login")).click();
-		//System.out.println(driver.findElement(By.cssSelector("_9ay7")).getText());
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
 		//driver.close();
