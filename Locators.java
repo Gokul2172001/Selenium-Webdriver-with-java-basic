@@ -9,8 +9,8 @@ public class Locators {
 	    WebDriver driver=new ChromeDriver();
 		//driver.manage().timeouts().implicitWait(Duration.ofSeconds(20);
 	    driver.get("https://www.udemy.com/");
-	    driver.findElement(By.id("email")).sendKeys("clevergokul21122001@gmail.com");
-	    driver.findElement(By.name("password")).sendKeys("1341919");
+	    driver.findElement(By.id("email")).sendKeys("gokul.elumalai12@gmail.com");
+	    driver.findElement(By.name("password")).sendKeys("gokul1341919");
 		driver.findElement(By.className("SigninBtn")).click();
 		System.out.println(driver.findElement(By.cssSelector("p.error")).getText());
 		driver.findElement(By.LinkText("forget password")).click();
