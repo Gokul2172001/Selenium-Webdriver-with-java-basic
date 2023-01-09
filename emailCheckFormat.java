@@ -2,7 +2,6 @@
 public class emailCheckFormat {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String email="gokul.elumalai12@gmail.com";
 		System.out.println(email);
 		String[] arrofstr=email.split("@",2);
