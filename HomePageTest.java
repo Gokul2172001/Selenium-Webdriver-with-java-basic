@@ -7,11 +7,15 @@ import org.testng.annotations.Test;
 import com.crm.qa.base.TestBase;
 import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.LoginPage;
+import com.crm.qa.pages.TabletsPage;
+import com.crm.qa.util.TestUtil;
 
 public class HomePageTest extends TestBase {
 	
 	LoginPage loginPage;
 	HomePage homePage;
+	TestUtil testUtil;
+	TabletsPage tabletsPage;
 	public HomePageTest() {
 		super();
 	}
@@ -20,6 +24,7 @@ public class HomePageTest extends TestBase {
 	@BeforeMethod
 	public void setUp() {
 		initialization();
+		testUtil=new TestUtil();
 		loginPage = new LoginPage();
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 	}
@@ -28,6 +33,11 @@ public class HomePageTest extends TestBase {
 	public void verifyHomePageTitleTest() {
 		String homePageTitle = homePage.verifyHomePageTitle();
 		Assert.assertEquals(homePageTitle, "My Account","Title not matched");
+	}
+	
+	@Test
+	public void verifyTabletsLink() {
+		String tabletsPage = homePage.clickOnTabletsLink();
 	}
 	
 	
