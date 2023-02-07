@@ -10,7 +10,6 @@ import com.crm.qa.pages.LoginPage;
 public class LoginPageTest extends TestBase {
 	LoginPage loginPage	;
 	HomePage homePage ;
-	
 	public LoginPageTest() {
 		super();
 	}
